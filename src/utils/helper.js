@@ -1,41 +1,50 @@
-import Discord from "../assets/images/webp/discord.webp";
-import PlayStore from "../assets/images/webp/google-play.webp";
-import AppStore from "../assets/images/webp/app-store.webp";
+import discord from "../assets/images/webp/discord.webp";
+import playStore from "../assets/images/webp/google-play.webp";
+import appStore from "../assets/images/webp/app-store.webp";
+import {
+  ABout_PATH_LINK,
+  AI_UGC_PATH_LINK,
+  APPSTORE_LINK,
+  DISCORD_LINK,
+  MARKETPLACE_PATH_LINK,
+  MORE_PATH_LINK,
+  PLAYSTORE_LINK,
+} from "./constant";
 // navbar data
 export const NAV_DATA = [
   {
-    Link: "Home",
-    Path: "#Home",
+    link: "Home",
+    path: "/",
   },
   {
-    Link: "About",
-    Path: "#About",
+    link: "About",
+    path: ABout_PATH_LINK,
   },
   {
-    Link: "AI-UGC",
-    Path: "#AI_UGC",
+    link: "AI-UGC",
+    path: AI_UGC_PATH_LINK,
   },
   {
-    Link: "Marketplace",
-    Path: "#Marketplace",
+    link: "Marketplace",
+    path: MARKETPLACE_PATH_LINK,
   },
   {
-    Link: "More",
-    Path: "#More",
+    link: "More",
+    path: MORE_PATH_LINK,
   },
 ];
 export const SOCIAL_LINKS = [
   {
-    Icon: Discord,
-    Path: "https://www.discord.com",
+    icons: discord,
+    path: DISCORD_LINK,
   },
   {
-    Icon: AppStore,
-    Path: "https://www.apple.com/in/app-store/",
+    icons: appStore,
+    path: APPSTORE_LINK,
   },
   {
-    Icon: PlayStore,
-    Path: "https://play.google.com/store",
+    icons: playStore,
+    path: PLAYSTORE_LINK,
   },
 ];
 
