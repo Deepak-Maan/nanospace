@@ -16,17 +16,17 @@ export default function Navbar() {
     return (
         <div className="shadow-nav backdrop-blur-[20px] bg-white bg-opacity-[6%]">
             <div className="container mx-auto xl:max-w-[1304px] px-3">
-                <div className="flex justify-between items-center ">
+                <div className="flex justify-between items-center py-3 lg:py-0">
                     <Link href={"/"}>
                         <img
                             src={pageLogo}
                             alt="navlogo"
-                            className="md:w-[154px] md:h-[40px] w-[80px] h-[40px] "
+                            className="w-[154px] h-12 "
                         />
                     </Link>
                     <ul
                         className={`${nav ? "left-[-100%]" : "left-0  z-[50]"
-                            } flex items-center max-lg:bg-off-black lg:flex-row max-lg:justify-center max-lg:flex-col top-0 max-lg:min-h-screen max-lg:w-full max-lg:fixed z-[4] lg:pl-[60px] xl:pl-[100px] transition-all duration-300 ease-linear`}
+                            } flex items-center max-lg:bg-off-black lg:flex-row max-lg:justify-center max-lg:flex-col top-0 max-lg:min-h-[101vh] max-lg:w-full max-lg:fixed z-[4] lg:pl-[60px] xl:pl-[100px] transition-all duration-300 ease-linear`}
                     >
                         {NAV_DATA.map((data, index) => (
                             <li key={index} className="lg:py-7 py-2 sm:py-4 lg:px-4 lg:hover:bg-off-white !bg-opacity-50">
