@@ -1,6 +1,6 @@
-import Discord from "../assets/images/png/discord.png";
-import PlayStore from "../assets/images/png/google-play.png";
-import AppStore from "../assets/images/png/app-store.png";
+import Discord from "../assets/images/webp/discord.webp";
+import PlayStore from "../assets/images/webp/google-play.webp";
+import AppStore from "../assets/images/webp/app-store.webp";
 // navbar data
 export const NAV_DATA = [
   {

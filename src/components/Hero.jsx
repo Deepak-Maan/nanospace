@@ -4,17 +4,17 @@ import { SOCIAL_LINKS } from '../utils/helper';
 
 const Hero = () => {
     return (
-        <div className="bg-header bg-cover bg-center min-h-screen flex flex-col relative">
-            <div className='w-full h-[204px] bg-blur-layer absolute bottom-0 left-0 right-0'>
+        <div className="bg-header bg-no-repeat bg-cover bg-center min-h-[80vh] sm:min-h-screen flex flex-col relative">
+            <div className='w-full h-[100px] sm:h-[204px] bg-bottom-blur-layer absolute bottom-[-30px] sm:bottom-0 left-0 right-0'>
 
             </div>
             <Navbar />
             <div className="flex-grow flex flex-col justify-center">
                 <div className="container xl:max-w-[1304px] mx-auto px-3">
-                    <h1 className='text-custom-5xl text-white font-bold font-orbitron leading-120 max-w-[801px] text-center mx-auto'>
+                    <h1 className='text-3xl sm:text-4xl lg:text-custom-5xl text-white font-bold font-orbitron leading-120 max-w-[801px] text-center mx-auto'>
                         Save NANOSPACE World from Enemies
                     </h1>
-                    <p className='text-xl font-normal font-saira leading-150 text-center text-white pt-4'>
+                    <p className=' text-base sm:text-xl font-normal font-saira leading-150 text-center text-white pt-4'>
                         Unleash ever-existing excitement with adorable girls armed with destructive gunfire.
                     </p>
                     <div className="flex gap-4 justify-center items-center pt-4">
