@@ -27,7 +27,7 @@ export const NAV_DATA = [
 export const SOCIAL_LINKS = [
   {
     Icon: Discord,
-    Path: "discord://",
+    Path: "https://www.discord.com",
   },
   {
     Icon: AppStore,

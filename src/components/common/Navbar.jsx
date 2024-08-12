@@ -29,7 +29,7 @@ export default function Navbar() {
                             } flex items-center max-lg:bg-off-black lg:flex-row max-lg:justify-center max-lg:flex-col top-0 max-lg:min-h-[101vh] max-lg:w-full max-lg:fixed z-[4] lg:pl-[60px] xl:pl-[100px] transition-all duration-300 ease-linear`}
                     >
                         {NAV_DATA.map((data, index) => (
-                            <li key={index} className="lg:py-7 py-2 sm:py-4 lg:px-4 lg:hover:bg-off-white !bg-opacity-50">
+                            <li key={index} className="lg:py-7 py-2 sm:py-4 lg:px-4 lg:hover:bg-off-white duration-300 !bg-opacity-50">
                                 <Link
                                     onClick={() => setNav(!nav)}
                                     href={data.Path}
@@ -40,7 +40,7 @@ export default function Navbar() {
                             </li>
                         ))}
                         <div className="lg:hidden block">
-                            <div className="w-[130px] ">
+                            <div className="w-[130px] pt-2 sm:pt-4 lg:pt-0 ">
                                 <CommonButton buttonText="Find More" />
                             </div>
                         </div>
