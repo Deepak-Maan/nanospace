@@ -7,8 +7,8 @@ const Explore = () => {
     return (
         <div className='bg-off-black py-12 sm:py-16 md:py-20 lg:py-24 xl:pt-[180px] xl:pb-[186px] mt-[-1px] overflow-hidden'>
             <div className="container mx-auto px-3 xl:max-w-[1164px] relative">
-                <div className="grid grid-cols-1 lg:grid-cols-2 relative z-10">
-                    <img className='lg:absolute relative z-10 w-[350px] h-[400px] md:w-[400px] md:h-[500px] mx-auto lg:w-[600px] lg:h-[800px] xl:w-[880px] xl:h-[1071px] object-cover lg:left-0 xl:left-[-10%] lg:bottom-[-60%] xl:bottom-[-90%]' src={CartoonGirl} alt="girl-image" />
+                <div className="grid grid-cols-1 lg:grid-cols-2 relative ">
+                    <img className='lg:absolute relative w-[350px] h-[400px] md:w-[400px] md:h-[500px] mx-auto lg:w-[600px] lg:h-[800px] xl:w-[880px] xl:h-[1071px] object-cover lg:left-0 xl:left-[-10%] lg:bottom-[-60%] xl:bottom-[-90%]' src={CartoonGirl} alt="girl-image" />
                     <div className='max-w-[672px] backdrop-blur-[10px] xl:max-h-[464px] max-lg:mx-auto lg:col-span-2 ml-auto rounded-[10px] bg-white !bg-opacity-[4%] p-4 sm:p-8 md:p-[50px] relative'>
                         <img className='absolute sm:-top-[70px] -top-[50px] -right-[50px] sm:right-[-70px] pointer-events-none w-[100px] h-[100px] sm:w-[150px] sm:h-[150px] lg:w-[200px] lg:h-[200px]  xl:h-[256px] xl:w-[256px]' src={CartoonRobot} alt="robot" />
                         <img className='sm:w-[234px] object-cover w-[170px] h-[50px] sm:h-[73px]' src={Logo} alt="logo" />
