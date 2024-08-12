@@ -23,7 +23,7 @@ module.exports = {
         150: "150%",
       },
       backgroundImage: {
-        header: "url('./assets/images/png/hero-bg.png')",
+        header: "url('./assets/images/webp/hero-bg.webp')",
         "bottom-blur-layer":
           "linear-gradient(180deg, rgba(7, 11, 27, 0) 7.35%, #111111 75.74%)",
       },
