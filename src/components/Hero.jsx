@@ -1,6 +1,7 @@
 import React from 'react';
 import Navbar from './common/Navbar';
 import { SOCIAL_LINKS } from '../utils/helper';
+import { Link } from 'react-router-dom';
 
 const Hero = () => {
     return (
@@ -20,9 +21,9 @@ const Hero = () => {
                     <div className="flex gap-4 justify-center items-center pt-4">
                         {SOCIAL_LINKS.map((data, index) => (
                             <div key={index}>
-                                <a href={data.Path} className='rounded-xl overflow-hidden'>
+                                <Link href={data.Path} target='_blank' rel='noreferrer' aria-label='open-links' className='rounded-xl overflow-hidden'>
                                     <img sizes='100vw' className='w-[118px] object-cover h-8' src={data.Icon} alt="social-links" />
-                                </a>
+                                </Link>
                             </div>
                         ))}
                     </div>
