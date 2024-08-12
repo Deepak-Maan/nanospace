@@ -22,7 +22,7 @@ const Hero = () => {
                         {SOCIAL_LINKS.map((data, index) => (
                             <div key={index}>
                                 <Link to={data.Path} target='_blank' rel='noreferrer' aria-label='open-links' className='rounded-xl overflow-hidden '>
-                                    <img sizes='100vw' className='w-[118px] object-contain h-9' src={data.Icon} alt="social-links" />
+                                    <img sizes='100vw' className='w-[118px] object-contain h-9 hover:scale-105 duration-300' src={data.Icon} alt="social-links" />
                                 </Link>
                             </div>
                         ))}
